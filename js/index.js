@@ -1,10 +1,12 @@
-const pokeCard = document.getElementById("data-poke-card")
-const pokeName = document.getElementById("data-poke-name")
-const pokeImg = document.getElementById("data-poke-img")
-const pokeImgContainer = document.getElementById("data-poke-img-container")
-const pokeId = document.getElementById("data-poke-id")
-const pokeTypes = document.getElementById("data-poke-types")
-const pokeStats = document.getElementById("data-poke-stats")
+const $ = selector => document.getElementById(selector)
+
+const pokeCard = $("data-poke-card")
+const pokeName = $("data-poke-name")
+const pokeImg = $("data-poke-img")
+const pokeImgContainer = $("data-poke-img-container")
+const pokeId = $("data-poke-id")
+const pokeTypes = $("data-poke-types")
+const pokeStats = $("data-poke-stats")
 
 const typesColors = {
   electric: '#FFEA70',
